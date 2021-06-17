@@ -1,0 +1,172 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+ 
+   font-family: sans-serif;
+   grid-row: 60px;
+   background-image:;
+   background-color: rgb(228, 222, 215);
+
+}
+.header{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+  background-color:  rgb(8, 0, 0);
+  color: #fff;
+  width:15000px;
+  /* padding-top: 10px; */
+  
+  line-height: 20px;
+  text-align:left;
+  padding-top: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-block-end: 0px;
+  padding-block-start: 20px;
+  height:150px;
+  
+
+}
+
+.d1{
+  padding-left: 100px;
+  padding-bottom: 20px;
+  font-size:large;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.header p{
+  text-align: left;
+  display:block;
+  margin-top:0px;
+  inset-block-start: 0px;
+  inset-block-end:100px;
+   
+  font-size:x-large ;
+  color: rgb(248, 248, 252);
+  padding-top:0px;
+  
+  
+}
+.top-bar{
+  display:inline-flex
+  text-align: left;
+  width: 4px;
+  height:30px;
+  color: white;
+  background: black;
+  
+}
+.menu-bar{
+  margin-top: 18px;
+  background:rgb(55, 142, 224) ;
+  padding-left: 2px;
+  margin-left: 70px;
+  height: 50px;
+  width:800px;
+  
+  
+}
+.menu-bar ul
+{
+  text-align: center;
+
+  display: inline-flex;
+  list-style: none;
+  color:#fff;
+  height:50px;
+  
+}
+.menu-bar ul li{
+  width:150px;
+  height:50px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 0px;
+  padding-right: 50px;
+  padding-top: 15px;
+  
+  
+}
+
+.menu-bar ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding:0px;
+  margin:0px;
+  
+}
+.active, .menu-bar ul li:hover{
+    background: #1245ee;
+    height:50px;
+    
+    
+}
+
+.main{
+  background:rgb(255, 255, 255) ;
+  /* padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 300px;
+  margin-left: 300px;
+  height:500px;
+  
+  width:800px; */
+  
+  display: flex;
+  width:800px;
+  
+  margin-left: 370px;
+  margin-right: 700x;
+  padding-right: 0px;
+  
+}
+.footer{
+  background:rgb(55, 142, 224) ;
+  /* margin-top:10px; */
+  
+  margin-left: 370px;
+  margin-right: 400px;
+  padding-left:50px;
+  height: 50px;
+  width:800px;
+  /* margin-top: 25px; */
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+
+}
+
+
+.side{
+  /* display: flex; */
+  /* float:right; */
+  /* padding-right:600px; */
+  /* margin-right: 400px; */
+  
+  
+  margin-top: 0px;
+  padding-top: 5px;
+  margin-left: 10px;
+  padding-left:
+    
+  
+  line-height: 15px;
+}
+
+.maintext{
+  padding-top: 5px;
+  padding-left: 20px;
+  margin-right:10px;
+}
+
+.link{
+  text-align:left;
+  padding-left: 20px;
+  /* color: rgb(219, 80, 103); */
+}
